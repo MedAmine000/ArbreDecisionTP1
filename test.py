@@ -16,6 +16,7 @@ df = pd.read_csv(data_path)
 print(df.head())
 
 
+
 df = pd.get_dummies(df)
 
 # Séparer les variables
