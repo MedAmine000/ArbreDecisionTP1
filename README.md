@@ -1,37 +1,23 @@
+# Arbre de Décision pour la Classification des Races de Chiens
 
-Arbre de Décision sur les Races de Chiens
+Ce projet utilise un modèle d'arbre de décision pour prédire la difficulté d'entraînement de diverses races de chiens en fonction de leurs caractéristiques. Le modèle est évalué à l'aide de métriques de performance et optimisé par une recherche d'hyperparamètres.
 
-Ce projet utilise un arbre de décision pour prédire la difficulté d'entraînement des races de chiens, en se basant sur un dataset Kaggle.
+## Structure du Projet
 
-Structure du Projet
+- **`test.py`** : Script principal pour le téléchargement, la préparation des données, l'entraînement et l'évaluation du modèle.
+- **`arbre_decision.png`** : Visualisation de l'arbre de décision.
+- **`README.md`** : Documentation détaillée du projet.
 
-test.py: 
+## Prérequis
 
-Script principal qui télécharge, prépare, et entraîne un modèle d'arbre de décision sur les données de races de chiens.
+- **Python 3.7+**
+- Bibliothèques Python :
+  - `pandas`
+  - `scikit-learn`
+  - `matplotlib`
+  - `kagglehub`
 
-README.md: Documentation du projet.
-Prérequis
-Python 3.7+
-Bibliothèques Python :
-pandas
-scikit-learn
-kagglehub
 Installez les dépendances avec la commande :
 
-
-pip install pandas scikit-learn kagglehub
-
-Instructions
-
-Téléchargez le dataset avec kagglehub.
-
-Exécutez le script test.py pour former un modèle d'arbre de décision et afficher les métriques de classification.
-Utilisation
-
-Dans le terminal, exécutez :
-
-
-python test.py
-
-Résultats
-Les résultats incluent la précision du modèle et des métriques de classification pour chaque classe de difficulté d'entraînement.
+```bash
+pip install pandas scikit-learn matplotlib kagglehub
